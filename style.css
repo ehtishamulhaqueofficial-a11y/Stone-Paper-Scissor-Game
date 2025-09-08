@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: rgb(0, 255, 251);
+}
+
+h1 {
+  margin-top: 6vmin;
+  margin-bottom: 1vmin;
+  padding: 2%;
+  border: 1vmin rgb(255, 255, 255) double;
+  border-radius: 1rem;
+  display: inline-block; 
+  background-color: black;
+  word-wrap: break-word;
+}
+
+/* Game Title Style */
+.gameTitle {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+/* Name Style */
+.myName {
+  font-family: 'Playfair Display', 'Segoe UI', serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: gold
+}
+
+.choices{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  margin-top: 3rem;
+}
+
+img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1.3vmin solid white;
+  }
+  
+img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.8);
+    transform: scale(0.97);
+    transition: all 0.4s ease-in;
+    border: 1.3vmin solid black;
+}
+
+img:active{
+  transform: scale(0.7) ;
+  transition: transform 0.2s;
+}
+
+.scoreBoard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 8vmin;
+}
+
+.score{
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  background: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5vmin;
+}
+
+.msg-container {
+  margin-top: 8vmin;
+}
+
+#msg {
+  background-color: black;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1vmin 2vmin;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 1rem;
+  border: 0.6vmin solid white;
+  display: inline-block;
+}
+
