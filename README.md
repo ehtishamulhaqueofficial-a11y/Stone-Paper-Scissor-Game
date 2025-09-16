@@ -1,7 +1,7 @@
 A simple and fun Tic Tac Toe (X-O) Game built with HTML, CSS, and JavaScript.
 Play against a friend locally and enjoy this classic game right in your browser.
 
-✨ Features
+✨ Features:
 
 🎲 Two-player mode (Player X vs Player O)
 
