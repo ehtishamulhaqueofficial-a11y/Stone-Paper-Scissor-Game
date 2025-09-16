@@ -1,32 +1,35 @@
-A simple and fun Tic Tac Toe (X-O) Game built with HTML, CSS, and JavaScript.
-Play against a friend locally and enjoy this classic game right in your browser.
+✨ Features
 
-✨ Features:
+🎮 Single-player mode (You vs Computer)
 
-🎲 Two-player mode (Player X vs Player O)
+🖥️ Responsive and clean UI
 
-🖥️ Clean and responsive design
+🤖 Computer makes random choices
 
-🏆 Automatic winner detection
+🏆 Automatic result detection (Win, Lose, or Draw)
 
-🔄 Restart/Reset game option
-
-⚡ Lightweight and fast – runs in any modern browser
+🔄 Restart/Play again option
 
 🚀 How to Play
 
-Player X starts first.
+Choose one: Stone (✊), Paper (✋), or Scissors (✌️).
 
-Players take turns clicking on the grid to place their mark.
+The computer will randomly select its choice.
 
-The first player to align three marks horizontally, vertically, or diagonally wins.
+Rules:
 
-If the grid is filled without a winner, the game ends in a draw.
+Stone beats Scissors
+
+Scissors beats Paper
+
+Paper beats Stone
+
+Winner is displayed instantly.
 
 🛠️ Tech Stack
 
 HTML5 – structure
 
-CSS3 – styling and responsiveness
+CSS3 – styling and animations
 
 JavaScript (Vanilla JS) – game logic
